@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.main {
+    text-align: center;
+    padding-top: 20px;
+}
+.game-container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: #dee6ff;
+}
+
+.game-container div{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+button {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #70a5fa;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+}
+
+.mask,.gameOver {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 500px;
+    margin-left: -250px;
+    margin-top: -250px;
+    text-align: center;
+    z-index: 999;
+    background-color: transparent;
+    color:  rgb(252, 127, 105);
+}
+/* .mask {
+    margin-top: -338px;
+    background-color: rgba(20, 17, 17, 0.3);
+    border-radius: 10px;
+} */
+.gameOver span {
+    display: block;
+    font-size: 60px;
+    font-weight: bold;
+	margin-top: 200px;
+}
+.tryAgin {
+    font-size: 24px;
+}
